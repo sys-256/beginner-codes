@@ -7,7 +7,7 @@ export default (binary: string): string =>
 				x
 					.split(``)
 					.map(Number)
-					.reduce((a, b, i) => a + b * 2 ** (7 - i))
-			)
+					.reduce((a, b, i) => a + b * 2 ** (7 - i)),
+			),
 		)
 		.join(``);

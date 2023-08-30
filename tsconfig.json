@@ -1,12 +1,12 @@
 {
-    "compilerOptions": {
-        "types": ["node"],
-        "module": "ESNext",
-        "target": "ESNext",
-        "moduleResolution": "NodeNext",
-        "allowImportingTsExtensions": true
-    },
-    "ts-node": {
-        "esm": true,
-    }
+	"compilerOptions": {
+		"types": ["node"],
+		"module": "ESNext",
+		"target": "ESNext",
+		"moduleResolution": "NodeNext",
+		"allowImportingTsExtensions": true
+	},
+	"ts-node": {
+		"esm": true
+	}
 }
