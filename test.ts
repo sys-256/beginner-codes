@@ -15,6 +15,7 @@ const testData = await (
 
 const functionToTest: Function = (await import(`./${argv[2]}/main.ts`)).default;
 let index: number = 1;
+const startTime = performance.now();
 for (const entry of testData) {
 	const result = JSON.stringify(functionToTest(...entry.args)) === JSON.stringify(entry.return);
 	if (result) {
@@ -24,3 +25,5 @@ for (const entry of testData) {
 	}
 	index++;
 }
+const endTime = performance.now();
+console.log(chalk.bold(`\nThat took ${(endTime - startTime).toFixed(5)}ms`));
