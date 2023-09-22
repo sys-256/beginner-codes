@@ -1,10 +1,9 @@
 {
 	"compilerOptions": {
 		"types": ["node"],
-		"module": "ESNext",
+		"module": "NodeNext",
 		"target": "ESNext",
-		"moduleResolution": "NodeNext",
-		"allowImportingTsExtensions": true
+		"moduleResolution": "NodeNext"
 	},
 	"ts-node": {
 		"esm": true
