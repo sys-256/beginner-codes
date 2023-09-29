@@ -7,6 +7,6 @@
 		"chalk": "^5.3.0"
 	},
 	"devDependencies": {
-		"@types/node": "^20.6.3"
+		"@types/node": "^20.7.1"
 	}
 }
