@@ -10,6 +10,6 @@ export default (icecreams: { flavor: string; num_sprinkles: number }[]) =>
 					ChocolateChip: 5,
 					Strawberry: 10,
 					Chocolate: 10,
-				}[icecream.flavor] + icecream.num_sprinkles)
-		)
+				})[icecream.flavor] + icecream.num_sprinkles,
+		),
 	);
